@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     ...
     new PrerenderSPAPlugin({
-      staticDir: path.join(__dirname, 'dist'),
+      staticDir: path.join(__dirname, 'build'),
       routes: [ '/', '/product:id' ],
     })
   ]
